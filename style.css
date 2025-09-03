@@ -1,0 +1,66 @@
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex; 
+  align-items: center; 
+}
+
+.app {
+  display: flex; 
+  flex-direction: column; 
+  width: 30rem;
+  margin-left: 3.5rem; 
+}
+
+.star-icon {
+  background-color: #F5C044;
+  height: 5rem; 
+  text-align: center; 
+  width: 2rem; 
+  height: 2rem; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  border-radius: 4rem; 
+}
+
+.app-title {
+  font-size: 2.25rem; 
+  margin-top: 0.8rem; 
+}
+
+.app-description {
+  font-size: 1.25rem; 
+  color: #52525A;
+  margin-top: 0.8rem; 
+  line-height: 1.5rem;
+}
+
+.checklist {
+  display: flex; 
+  flex-direction: column; 
+  gap: 1rem; 
+  margin-top: 1.5rem;
+}
+
+.checklist-item {
+  display: flex; 
+}
+
+.check-icon {
+  margin-right: 0.5rem;
+}
+
+.checklist-text {
+  font-size: 0.875rem; 
+  color: #52525A;
+  display: flex; 
+  align-items: center;
+}
