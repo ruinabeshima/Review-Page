@@ -123,6 +123,38 @@ body {
   margin-right: 1rem;
 }
 
+/* Tablet Design */
+@media screen and (max-width: 1024px) {
+  body {
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .app {
+    width: 40rem; 
+    margin-top: 3.5rem;
+  }
+
+  .reviews {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .review-1 {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    translate: 1rem 1rem; 
+  }
+
+  .review-2 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    translate: -1rem 1rem;
+  }
+}
+
 
 
 
